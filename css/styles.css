@@ -160,7 +160,7 @@ img {
 }
 
 .hero-btn {
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -335,6 +335,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -346,10 +347,8 @@ img {
   cursor: pointer;
   background-color: #f4f4fd;
   color: #4d5ae5;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  border: none;
+  border: 1px solid #e7e9fc;
   padding: 12px 24px;
 }
 
@@ -357,10 +356,7 @@ img {
 .filter-btn:focus {
   color: var(--first-background);
   background-color: #404bbf;
-}
-
-.filter-item {
-  margin-bottom: 72px;
+  border: 1px solid transparent
 }
 
 .project-list {
